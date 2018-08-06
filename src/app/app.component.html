@@ -1,0 +1,8 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+   {{message}}
+  </h1>
+  </div>
+  <app-employee-list (Event)="message=$event" [parentData]="greeting"> </app-employee-list>
+  <app-employeedetails-list [parentData]="greeting"> </app-employeedetails-list>
